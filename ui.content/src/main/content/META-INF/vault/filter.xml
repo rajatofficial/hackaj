@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/hackaj" mode="merge"/>
+    <filter root="/content/hackaj" mode="merge"/>
+    <filter root="/content/dam/hackaj" mode="merge">
+        <exclude pattern="/content/dam/hackaj(/.*)?"/>
+        <include pattern="/content/dam/hackaj/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/hackaj/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/hackaj" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/hackaj" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/hackaj" mode="merge"/>
+    <filter root="/content/dam/hackaj/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/hackaj/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/hackaj/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
